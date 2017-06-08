@@ -275,3 +275,95 @@ html{
   height: 36.5rem;
   background-color: white;
 }
+
+.container3{
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.title3{
+  text-align: center;
+  padding: 2rem 0rem 0rem 0rem;
+  font-size: 2rem;
+  color: #595959;
+}
+
+.sidebyside{
+  display: inline-flex;
+  width: 100%;
+  margin: auto;
+}
+
+.video{
+  width: 60%;
+  margin: 0rem 1.5rem;
+}
+
+.video h2{
+  font-size: 2.5rem;
+  color: #595959;
+}
+
+.video h4{
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.fisma{
+  display: inline-flex;
+  height: 15rem;
+  width: 45rem;
+  margin-top: 2.55rem;
+  margin-left: 1rem;
+  background-color: #cccccc;
+  align-items: center;
+}
+
+.fisma h2{
+  font-size: 2rem;
+  margin: 3rem 0rem;
+  color: #595959;
+}
+
+.fisma h4{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.fisma img{
+  width: 18rem;
+  height: 13rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.nyc{
+  display: inline-flex;
+  height: 15rem;
+  width: 45rem;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.nyc h2{
+  font-size: 2rem;
+  margin: 3rem 0rem;
+  color: #595959;
+}
+
+.nyc h4{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.nyc img{
+  width: 18rem;
+  height: 13rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
