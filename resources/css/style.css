@@ -1,0 +1,100 @@
+html{
+  font-size: 16px;
+  font-family: Helvetica;
+  width: 90%;
+  margin: auto;
+}
+
+.header{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 89%;
+  height: 4rem;
+  background-color: white;
+  position: fixed;
+  z-index: 3;
+}
+
+.logo{
+  display: inline-flex;
+  padding-left: 1.5rem;
+  align-items: center;
+}
+
+.logo img{
+  height: 3rem;
+}
+
+.logo{
+  color: 	#bfbfbf;
+  font-style: normal;
+}
+
+.logo .colmar{
+  color: 	#404040;
+  font-style: bold;
+}
+
+.nav nav{
+  display: inline-flex;
+  font-size: 1.3rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav a{
+  color: #404040;
+  text-decoration: none;
+}
+
+.nav span{
+  display: inline-flex;
+  align-items: center;
+  height: 4rem;
+  padding-left: .2rem;
+  border-right: 1rem solid #a8f0ec;
+}
+
+#sign{
+  border: none;
+  padding-right: 1rem;
+}
+
+.banner{
+  width: 100%;
+  height: auto;
+  background-color: #cccccc;
+  margin: auto;
+  position: relative;
+  top: 4.7rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.banner img{
+  padding: 2rem 2.5rem 2rem 1.5rem;
+
+}
+
+.banner .learning{
+  text-align: left;
+
+}
+
+.banner .start{
+  width: 100%;
+  background-color: #4d4d4d;
+  color: white;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.start a{
+  text-decoration: none;
+}
