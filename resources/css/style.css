@@ -12,7 +12,7 @@ html{
   text-align: left;
   flex-flow: row wrap;
   align-items: center;
-  width: 89%;
+  width: 90%;
   height: 4rem;
   background-color: white;
   position: fixed;
@@ -61,7 +61,7 @@ html{
 
 #sign{
   border: none;
-  padding-right: 1rem;
+  padding-right: 2rem;
 }
 
 .banner{
@@ -70,7 +70,7 @@ html{
   background-color: #cccccc;
   margin: auto;
   position: relative;
-  top: 4.7rem;
+  top: 4rem;
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
@@ -83,7 +83,7 @@ html{
 
 .banner .learning{
   text-align: left;
-
+  font-size: 1.5rem;
 }
 
 .banner .start{
@@ -93,8 +93,10 @@ html{
   text-align: center;
   padding-top: .5rem;
   padding-bottom: .5rem;
+  font-size: 2rem;
 }
 
-.start a{
+.banner a{
   text-decoration: none;
+  color: white;
 }
