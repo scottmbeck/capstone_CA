@@ -1,7 +1,7 @@
 html{
   font-size: 16px;
   font-family: Helvetica;
-  width: 100%;
+  width: 99%;
   margin: auto;
 }
 
@@ -366,4 +366,40 @@ html{
   width: 18rem;
   height: 13rem;
   padding: 1rem 1rem 1rem 1rem;
+}
+
+.footer{
+  width: 100%;
+  margin: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.25rem solid #cccccc;
+}
+
+.footer h4{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #595959;
+}
+
+.copyright{
+  margin-left: 1.5rem;
+}
+
+.footer a{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #595959;
+  text-decoration: none;
+}
+
+.footnav nav{
+  display: inline-flex;
+  align-items: center;
+  margin: 0rem 1.5rem;
+}
+
+.footnav span{
+  padding: 1rem;
 }
