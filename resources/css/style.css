@@ -2,11 +2,11 @@
 /* Desktop site css is up top, media query transitions to smaller screens and
 mobile styles are outlined below*/
 
-/*
+
 .mobile {
   display: none;
 }
-*/
+
 
 html{
   font-size: 16px;
