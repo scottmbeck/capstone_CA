@@ -57,93 +57,114 @@
      </div>
    </div>
 
-   <!-- mobile courses and learning section -->
+   <!-- mobile courses and learning section which includes dynamic transition lists
+         that are accordians -->
 
    <div class="mobilecontainer2">
      <div class="mobiletitle1">
        <h1>Start learning</h1>
      </div>
 
-     <div class="mobilesoftware">
-       <a href="#software">
-         <h2>Software engineering</h2>
-       </a>
+     <div class="mobilelist">
        <ul>
-         <li>COURSES:</li>
-         <li>Web Development</li>
-         <li>Mobile Development</li>
-         <li>iOT</li>
-         <li>APIs</li>
-       </ul>
-     </div>
+         <li>
+           <input type="checkbox" id="mobilesoftware">
+           <label for="mobilesoftware" class="mobilesoftware"><h2>Software Engineering</h2></label>
+           <ul>
+             <li>COURSES:</li>
+             <li>Web Development</li>
+             <li>Mobile Development</li>
+             <li>iOT</li>
+             <li>APIs</li>
+           </ul>
+         </li>
+      </ul>
 
-     <div class="mobileart">
-       <a href="#art">
-         <h2>Computer Art</h2>
-       </a>
        <ul>
-         <li>COURSES:</li>
-         <li>Imaging &amp; Design</li>
-         <li>Web Design</li>
-         <li>Motion Graphics &amp; Visual Effects</li>
-         <li>Computer Animation</li>
+         <li>
+           <input type="checkbox" id="mobileart">
+           <label for="mobileart" class="mobileart"><h2>Computer art</h2></label>
+           <ul>
+             <li>COURSES:</li>
+             <li>Imaging &amp; Design</li>
+             <li>Web Design</li>
+             <li>Motion Graphics &amp; Visual Effects</li>
+             <li>Computer Animation</li>
+           </ul>
+         </li>
        </ul>
-     </div>
 
-     <div class="mobiledesign">
-       <a href="#design">
-         <h2>Design</h2>
-       </a>
        <ul>
-         <li>COURSES:</li>
-         <li>User Experience Design</li>
-         <li>User Research</li>
-         <li>Visual Design</li>
+         <li>
+           <input type="checkbox" id="mobiledesign">
+           <label for="mobiledesign" class="mobiledesign"><h2>Design</h2></label>
+           <ul>
+             <li>COURSES:</li>
+             <li>User Experience Design</li>
+             <li>User Research</li>
+             <li>Visual Design</li>
+           </ul>
+         </li>
        </ul>
-     </div>
 
-     <div class="mobiledata">
-       <a href="#data">
-         <h2>Data</h2>
-       </a>
        <ul>
-         <li>COURSES:</li>
-         <li>Data Science</li>
-         <li>Big Data</li>
-         <li>SQL</li>
-         <li>Data Visualization</li>
+         <li>
+           <input type="checkbox" id="mobiledata">
+           <label for="mobiledata" class="mobiledata"><h2>Data</h2></label>
+           <ul>
+             <li>COURSES:</li>
+             <li>Data Science</li>
+             <li>Big Data</li>
+             <li>SQL</li>
+             <li>Data Visualization</li>
+           </ul>
+         </li>
        </ul>
-     </div>
 
-     <div class="mobilebusiness">
-       <a href="#business">
-         <h2>Business</h2>
-       </a>
-       <ul>
-         <li>COURSES:</li>
-         <li>Product Development</li>
-         <li>Business Development</li>
-         <li>Startup</li>
-       </ul>
-     </div>
+      <ul>
+        <li>
+          <input type="checkbox" id="mobilebusiness">
+          <label for="mobilebusiness" class="mobilebusiness"><h2>Business</h2></label>
+          <ul>
+            <li>COURSES:</li>
+            <li>Product Development</li>
+            <li>Business Development</li>
+            <li>Startup</li>
+          </ul>
+        </li>
+      </ul>
 
-     <div class="mobilemarketing">
-       <a href="#marketing">
-         <h2>Marketing</h2>
-       </a>
-       <ul>
-         <li>COURSES:</li>
-         <li>Analytics</li>
-         <li>Content Marketing</li>
-         <li>Mobile Marketing</li>
-       </ul>
+      <ul>
+        <li>
+          <input type="checkbox" id="mobilemarketing">
+          <label for="mobilemarketing" class="mobilemarketing"><h2>Marketing</h2></label>
+          <ul>
+            <li>COURSES:</li>
+            <li>Analytics</li>
+            <li>Content Marketing</li>
+            <li>Mobile Marketing</li>
+          </ul>
+        </li>
+      </ul>
      </div>
+   </div>
 
+   <!-- mobile thesis section with video -->
+
+   <div class="mobilevideo">
+     <h1>Thesis exhibits</h1>
+     <video width="465px" height="auto" onclick="this.play()"
+     src="resources/videos/thesis.mp4" autoplay poster="posterimage.jpg"
+     controls>
+       Your browser does not support this video
+     </video>
    </div>
 
 
+   <!-- mobile footer section-->
 
-
-
+   <div class="mobilefooter">
+     <h4>&copy; 2016 Colmar Academy. All rights reserved</h4>
+   </div>
   </body>
 </html>
