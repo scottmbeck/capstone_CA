@@ -1,3 +1,13 @@
+
+/* Desktop site css is up top, media query transitions to smaller screens and
+mobile styles are outlined below*/
+
+/*
+.mobile {
+  display: none;
+}
+*/
+
 html{
   font-size: 16px;
   font-family: Helvetica;
@@ -10,7 +20,7 @@ html{
   display: flex;
   justify-content: space-between;
   text-align: left;
-  flex-flow: row wrap;
+  flex-direction: row;
   align-items: center;
   width: 100%;
   height: 4rem;
@@ -19,6 +29,7 @@ html{
   z-index: 5;
   top: 0rem;
 }
+
 
 .logo{
   display: inline-flex;
@@ -402,4 +413,118 @@ html{
 
 .footnav span{
   padding: 1rem;
+}
+
+/*Media Query to change over to mobile site design*/
+
+@media only screen and (max-width: 480px){
+
+  html{
+    font-size: 12px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .desktop{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+  }
+}
+
+/*mobile css for design*/
+
+
+.mobileheader{
+  margin: auto;
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mobilelogo{
+  margin: auto;
+  display: inline-flex;
+  width: 20%;
+  height: 5rem;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  top: 0rem;
+  z-index: 5;
+}
+
+.mobilelogo img{
+  height: 3rem;
+}
+
+.mobilebanner{
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 3rem;
+  z-index: 4;
+  width: 20%;
+  Height: 15rem;
+  background-image: url("banner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.mobilelearning{
+  margin: auto;
+  display: block;
+  width: 20%;
+  position: relative;
+  top: 1.5rem;
+  background-color: #bfbfbf;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.mobilelearning h1{
+  margin: 2rem 0rem 2rem 1rem;
+  color: #4d4d4d;
+}
+
+#mobilelorem{
+  margin: 0rem 0rem 1.5rem 1rem;
+  color: #4d4d4d;
+  font-weight: lighter;
+}
+
+.mobilelearning a{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 80%;
+  margin: auto;
+  padding: 0.15rem;
+  background-color: #8c8c8c;
+}
+
+.mobileboxes{
+  margin: auto;
+  display: block;
+  width: 20%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  top: 1.5rem;
+}
+
+.mobileboxes img{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+  padding
 }
