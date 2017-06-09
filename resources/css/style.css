@@ -421,7 +421,7 @@ html{
 
   html{
     font-size: 12px;
-    width: 100%;
+    width: 480px;
     margin: auto;
   }
 
@@ -436,10 +436,18 @@ html{
 
 /*mobile css for design*/
 
+#html{
+  width: 480px;
+  margin: auto;
+}
 
+.mobile{
+  width: 480px;
+  margin: auto;
+}
 .mobileheader{
   margin: auto;
-  width: 100%;
+  width: 480px;
   height: auto;
   display: inline-flex;
   justify-content: space-around;
@@ -449,7 +457,7 @@ html{
 .mobilelogo{
   margin: auto;
   display: inline-flex;
-  width: 20%;
+  width: 480px;
   height: 5rem;
   justify-content: space-around;
   align-items: center;
@@ -469,7 +477,7 @@ html{
   position: relative;
   top: 3rem;
   z-index: 4;
-  width: 20%;
+  width: 100%;
   Height: 15rem;
   background-image: url("banner.jpg");
   background-position: center;
@@ -479,7 +487,7 @@ html{
 .mobilelearning{
   margin: auto;
   display: block;
-  width: 20%;
+  width: 100%;
   position: relative;
   top: 1.5rem;
   background-color: #bfbfbf;
@@ -513,18 +521,37 @@ html{
 .mobileboxes{
   margin: auto;
   display: block;
-  width: 20%;
+  width: 100%;
   height: auto;
   position: relative;
   z-index: 2;
   top: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .mobileboxes img{
-  width: 95%;
+  width: 90%;
   margin: auto;
-  display: flex;
-  justify-content: center;
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: white;
+}
 
-  padding
+.mobileboxes h2{
+  color:  #595959;
+}
+.mobilecontinfo{
+  margin-left: 1.5rem;
+  text-align: left;
+}
+
+.mobilecontinfo a{
+  text-decoration: none;
+  font-weight: lighter;
+  color: #00aaff;
+}
+
+#mobileboxtext{
+  font-weight: lighter;
 }
